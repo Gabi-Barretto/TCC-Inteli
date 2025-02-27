@@ -13,7 +13,7 @@ const config = {
   projectName: 'TCC-Inteli', // Nome do repositório
   deploymentBranch: 'gh-pages',
 
-  trailingSlash: false,
+  trailingSlash: true,
 
   presets: [
     [
