@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
     "build": "docusaurus build",
-    "deploy": "docusaurus deploy",
+    "deploy": "docusaurus build",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
