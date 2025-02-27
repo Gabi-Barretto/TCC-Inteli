@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkF_ARM=self.webpackChunkF_ARM||[]).push([[151],{7419:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/TCC-Inteli/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
