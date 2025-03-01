@@ -4,10 +4,10 @@ sidebar_position: 0
 sidebar_label: "Pesquisa Inicial"
 ---
 
-
-# **MVP e Versão Industrial**
+## 🚀 **MVP e Versão Industrial**
 
 ## **1. Introdução**
+
 O **monitoramento remoto de áreas agrícolas** desempenha um papel essencial na **gestão eficiente de recursos naturais** e na **otimização da produtividade**. Este projeto visa desenvolver uma solução para a coleta e análise de **dados ambientais do solo e do ar**, utilizando sensores estratégicos e conectividade sem fio para permitir **análises** via **Data Science**.
 
 A solução será desenvolvida em **duas fases**:

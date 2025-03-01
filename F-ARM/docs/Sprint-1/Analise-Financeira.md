@@ -4,7 +4,7 @@ sidebar_position: 4
 sidebar_label: "Análise Financeira"
 ---
 
-# 💰 Análise Financeira do MVP
+## 💰 Análise Financeira
 
 ## 📌 Custos do MVP
 
