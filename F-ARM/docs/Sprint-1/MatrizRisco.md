@@ -4,7 +4,7 @@ sidebar_position: 3
 sidebar_label: "Matriz de Risco"
 ---
 
-## 🛑 **Matriz de Risco do Projeto F-ARM**
+## 🛑 **Matriz de Risco**
 A matriz de risco será estruturada com **probabilidade x impacto**, conforme o modelo visto na imagem que você enviou.
 
 | **Risco** | **Impacto** | **Probabilidade** | **Plano de Mitigação** |

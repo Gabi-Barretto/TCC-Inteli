@@ -5,7 +5,7 @@ sidebar_label: "Pesquisa Inicial"
 ---
 
 
-# **Monitoramento Remoto de Áreas Agrícolas – MVP e Versão Industrial**
+# **MVP e Versão Industrial**
 
 ## **1. Introdução**
 O **monitoramento remoto de áreas agrícolas** desempenha um papel essencial na **gestão eficiente de recursos naturais** e na **otimização da produtividade**. Este projeto visa desenvolver uma solução para a coleta e análise de **dados ambientais do solo e do ar**, utilizando sensores estratégicos e conectividade sem fio para permitir **análises** via **Data Science**.
@@ -83,17 +83,14 @@ Caso **não haja cobertura LoRaWAN**, a **alternativa menos custosa** será a **
 
 ---
 
-### **4.3. Como Funciona o Gateway 5G**
-Se não houver **cobertura LoRaWAN** na região, o **gateway 5G** terá a função de:
-- Receber os dados dos ESP32 via **LoRa** (pequenos alcances, 1 a 3 km).
-- Transmitir os dados para a nuvem via **rede 5G**.
+### **4.3. Gateway LoRaWAN Próprio**
+Caso **não haja cobertura LoRaWAN pública nem 5G**, a solução será a **implantação de um gateway LoRaWAN próprio**, permitindo que os dispositivos ESP32 comuniquem-se via LoRa e encaminhem os dados à nuvem.
 
-💡 **Vantagem do Gateway 5G:**  
-- **Evita a necessidade de um módulo 5G em cada ESP32**, reduzindo custos.  
-- **Menos consumo de energia nos ESP32**, pois a comunicação 5G demanda mais energia.  
-- **Facilita a manutenção**, pois apenas o gateway precisa estar configurado para comunicação celular.  
+**Abordagem Preferida:**
+- **Os ESP32 utilizarão módulos LoRaWAN para se comunicar com um gateway privado.**
+- **O gateway será responsável por conectar a rede LoRaWAN à internet via Wi-Fi, Ethernet ou 4G.**
 
-✅ **Essa abordagem garante que o sistema funcione mesmo sem cobertura LoRaWAN, sem depender de módulos 5G individuais nos sensores**.
+✅ **Essa abordagem garante que o sistema funcione mesmo sem cobertura LoRaWAN pública ou 5G**.
 
 ---
 
