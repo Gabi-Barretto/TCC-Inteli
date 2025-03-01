@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkF_ARM=self.webpackChunkF_ARM||[]).push([[634],{9179:(e,r,t)=>{t.r(r),t.d(r,{default:()=>s});var u=t(6347),n=t(4848);function s(){return(0,n.jsx)(u.rd,{to:"/intro"})}}}]);
