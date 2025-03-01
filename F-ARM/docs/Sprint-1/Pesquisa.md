@@ -79,7 +79,7 @@ Caso **não haja cobertura LoRaWAN**, a **alternativa menos custosa** será a **
 |-------------|------------------|----------------------|
 | **Há cobertura LoRaWAN** | ESP32 envia direto via LoRaWAN | ❌ **Não precisa de gateway** |
 | **Não há cobertura LoRaWAN, mas há 5G** | ESP32 transmite para um **gateway 5G** via LoRa | ✔️ **Precisa de um gateway 5G** |
-| **Não há cobertura LoRaWAN nem 5G** | Gateway pode usar outra conexão (ex.: satélite) | ✔️ **Precisa de gateway com alternativa** |
+| **Não há cobertura LoRaWAN nem 5G** | Gateway pode usar outra conexão (ex.: satélite ou ) | ✔️ **Precisa de gateway com alternativa** |
 
 ---
 
