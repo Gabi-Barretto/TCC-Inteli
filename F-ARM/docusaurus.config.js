@@ -6,10 +6,10 @@ const config = {
   tagline: 'Agricultural Remote Monitoring',
   favicon: 'img/favicon.ico',
 
-  url: 'https://gabi-barretto.github.io', // URL do GitHub Pages
+  url: 'https://Gabi-Barretto.github.io', // URL do GitHub Pages
   baseUrl: '/TCC-Inteli/', // Nome do repositório com barra no final
 
-  organizationName: 'gabi-barretto', // Nome da conta no GitHub
+  organizationName: 'Gabi-Barretto', // Nome da conta no GitHub
   projectName: 'TCC-Inteli', // Nome do repositório
   deploymentBranch: 'gh-pages',
 
