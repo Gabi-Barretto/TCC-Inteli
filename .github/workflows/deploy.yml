@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
-        with:
-          path: .  # Garante que o código seja clonado na raiz correta
 
       - name: Verificar estrutura do diretório
         run: ls -la
@@ -24,14 +22,15 @@ jobs:
           node-version: 18
 
       - name: Instalar dependências
-        run: npm install
+        run: cd F-ARM && npm install
 
       - name: Construir site Docusaurus
-        run: npm run build
+        run: cd F-ARM && npm run build
 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./F-ARM/build
           publish_branch: gh-pages
+
