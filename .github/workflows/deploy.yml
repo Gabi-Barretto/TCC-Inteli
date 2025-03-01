@@ -1,10 +1,3 @@
-name: Deploy Docusaurus to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main  # Executa o deploy quando houver push na branch main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -12,6 +5,11 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
+        with:
+          path: .  # Garante que o código seja clonado na raiz correta
+
+      - name: Verificar estrutura do diretório
+        run: ls -la
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
