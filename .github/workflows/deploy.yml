@@ -33,4 +33,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./F-ARM/build
           publish_branch: gh-pages
+          allow_empty_commit: true  # Permite criar a branch se não existir
 
