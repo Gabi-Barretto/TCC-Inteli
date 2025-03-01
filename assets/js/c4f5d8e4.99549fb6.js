@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkf_arm=self.webpackChunkf_arm||[]).push([[634],{9179:(e,n,r)=>{r.r(n),r.d(n,{default:()=>f});var t=r(6540),u=r(6347);function f(){const e=(0,u.W6)();return(0,t.useEffect)((()=>{e.replace("/TCC-Inteli/intro")}),[]),null}}}]);
